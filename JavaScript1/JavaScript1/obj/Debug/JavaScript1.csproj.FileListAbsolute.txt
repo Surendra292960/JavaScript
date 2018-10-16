@@ -1,0 +1,7 @@
+G:\C#.NetPrograms\JavaScript1\JavaScript1\bin\Debug\JavaScript1.exe.config
+G:\C#.NetPrograms\JavaScript1\JavaScript1\bin\Debug\JavaScript1.exe
+G:\C#.NetPrograms\JavaScript1\JavaScript1\bin\Debug\JavaScript1.pdb
+G:\C#.NetPrograms\JavaScript1\JavaScript1\obj\Debug\JavaScript1.csproj.CoreCompileInputs.cache
+G:\C#.NetPrograms\JavaScript1\JavaScript1\obj\Debug\JavaScript1.exe
+G:\C#.NetPrograms\JavaScript1\JavaScript1\obj\Debug\JavaScript1.pdb
+G:\C#.NetPrograms\JavaScript1\JavaScript1\obj\Debug\JavaScript1.csprojAssemblyReference.cache

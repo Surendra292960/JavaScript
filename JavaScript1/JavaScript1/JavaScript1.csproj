@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{F0FA584E-34F1-4868-A8FE-5B99DF21D6F1}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>JavaScript1</RootNamespace>
+    <AssemblyName>JavaScript1</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="AbstractInstance.html" />
+    <Content Include="AbstractInstanceOfOperator.html" />
+    <Content Include="AbstractionAchieve.html" />
+    <Content Include="ArrayConstructorNewKeyWord.html" />
+    <Content Include="ArrayLiteral.html" />
+    <Content Include="ArrayNewKeyword.html" />
+    <Content Include="ByCreatingInstanceofObject.html" />
+    <Content Include="ByUsingObjectConstructor.html" />
+    <Content Include="Classdeclaration.html" />
+    <Content Include="ClassExpression.html" />
+    <Content Include="Constructor.html" />
+    <Content Include="DefiningMethodsinObject.html" />
+    <Content Include="Employee2.html" />
+    <Content Include="Encapsulation.html" />
+    <Content Include="EncapsulationPrototypebased.html" />
+    <Content Include="EncapsulationValidate.html" />
+    <Content Include="Form.html" />
+    <Content Include="Inheritance1.html" />
+    <Content Include="Inheritance2.html" />
+    <Content Include="InheritanceCustum1.html" />
+    <Content Include="InheritancePrototype.html" />
+    <Content Include="InvokeStaticMethod.html" />
+    <Content Include="InvokeStatiMethodWithConstructor.html" />
+    <Content Include="JavaScriptObjectbyObject.html" />
+    <Content Include="Js1.html" />
+    <Content Include="JsClass2.html" />
+    <Content Include="NamedClass.html" />
+    <Content Include="Polymorphism.html" />
+    <Content Include="Polymorphism2.html" />
+    <Content Include="PolymorphismPrototype.html" />
+    <Content Include="Prototype.html" />
+    <Content Include="Prototype2.html" />
+    <Content Include="RedeclaringClass.html" />
+    <Content Include="StaticMethod.html" />
+    <Content Include="StaticMethod2.html" />
+    <Content Include="StaticmethodCallWithNonStatic.html" />
+    <Content Include="UseParentClassConstructor.html" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
